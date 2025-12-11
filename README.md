@@ -17,6 +17,8 @@ This repository contains the MATLAB code used to generate the results in the pap
 
 “Adiabatic-section flow in axial-groove heat pipes with varying meniscus curvature.”
 
+The main code name is , and code name start with "A_" would be anaticaly function that will be called by the main code, 
+
 ## Citation
 
 If you use this code in academic work, please cite the paper.
