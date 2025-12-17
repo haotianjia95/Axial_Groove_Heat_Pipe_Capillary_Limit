@@ -15,9 +15,7 @@ Marc Hodes¹*, Haotian Jia¹, Andrew Daetz¹, and Toby Kirk²
 
 ## Overview
 
-This repository contains the MATLAB code used to generate the results presented in the paper:
-
-**“Adiabatic-section flow in axial-groove heat pipes with varying meniscus curvature.”**
+This repository contains the MATLAB code used to generate the results presented in the paper for the limiting case when the protrusion angle defined in the referenced journal publication is zero degrees.
 
 The main code file is:
 
