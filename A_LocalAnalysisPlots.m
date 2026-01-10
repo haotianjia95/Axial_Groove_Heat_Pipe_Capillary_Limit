@@ -30,7 +30,7 @@ v_zv_starC0 = qt_star_c0/(2*Ng*h_lv*rho_v*Qv00*P_star^2)*... % Eqn 6.68
     sum(Al_hat.*cos(theta'*alpha),2)';
 
 
-V_zv00 = sum(Al_hat.*cos(theta'*alpha),2)'; % Eqn 4.49
+V_zv00 = sum(Al_hat.*cos(theta'*alpha),2)'; % Eqn 4.29
 V_zl00 = V_zv00/(mu*xi_tilde); % Eqn 4.35
 
 % V_zl00_2 = -(sum(Bm_hat.*(-1).^m.*((1+exp(-2*theta_l'*beta))./...

@@ -1,4 +1,5 @@
 function [Qv00,Ql00,Qv01,Ql01] = A_FullMassFlowRate(mu,t_p,t_g,R_l,R_g,xi_tilde,xi_tilde1,N)
+% A_FullMassFlowRate calculates the analytical solution for auxiliary volumetric flow rate
 %% Step 1: Define constants
 % format long;
 %N is related to number of terms in series

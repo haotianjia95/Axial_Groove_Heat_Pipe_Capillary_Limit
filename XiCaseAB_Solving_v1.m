@@ -1,4 +1,5 @@
 clear all; close all; clc; format compact; format  shortE
+% XiCaseAB_Solving_v1 finds the root for \tilde xi^00 and \tilde xi^01 for case A and case B
 
 % Solver Settings ---------------------------------------------------------
 N_An = 1000; % number of terms, Andrew's code

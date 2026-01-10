@@ -1,5 +1,5 @@
 function [l,n,m,alpha,gamma,beta,Bm_hat,Al_hat,Cn_hat,Dl_hat,En_hat]=A_LocalAnalysisCalc(mu,t_p,t_g,R_l,R_g,xi_tilde,xi_tilde1,N)
-% function [l,n,m,alpha,gamma,beta,Bm_hat,Al_hat,Cn_hat,Dl_hat,En_hat,Qv00,Ql00,Qv01,Ql01]=A_LocalAnalysisCalc(S,xi_tilde,xi_tilde1,N)
+% A_LocalAnalysisCalc compute results need for A_LocalAnalysisPlots function
 
 %% Step 1: Define constants
 

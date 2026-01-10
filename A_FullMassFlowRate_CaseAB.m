@@ -1,4 +1,6 @@
 function [K1_star,K2_star,K4_star,Ca_star] = A_FullMassFlowRate_CaseAB(mu,t_p,t_g,R_l_star,R_l,R_g_star,R_g,P_star,xi_tilde,xi_tilde1,N)
+% A_FullMassFlowRate calculates the analytical solution for auxiliary
+% volumetric flow rate, for case A and case B
 %% Step 1: Define constants
 % format long;
 %N is related to number of terms in series

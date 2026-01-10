@@ -2557,6 +2557,7 @@ print(hfig,hfigname,'-dpdf','-painters')
 
 %% FUNCTION SECTION
 function [tXi00,tXi01] = XiRootAndrew(rho,mu,tp,tg,RL,Rg,N,tXi00_ig)
+% XiRootAndrew finds the root for \tilde xi^00 and \tilde xi^01
 
 tXi00 = fzero(@(tXi00) LeadingOrderFun(rho,mu,tp,tg,RL,Rg,N,tXi00),tXi00_ig);
 tXi01 = fzero(@(tXi01)   FirstOrderFun(rho,mu,tp,tg,RL,Rg,N,tXi00,tXi01), 1);
@@ -2643,6 +2644,7 @@ end
 end
 
 function Sigma_Qv = QvRootNumerical(SC,SL,tm0,Rm0,tXi0N,tQv0N,Qv0Arg,N_pt,Case)
+% QvRootNumerical finds the value of Qv for the numerical approach, Sigma_Qv is the convergence criteria
 
 rho = SC.rho;
 mu = SC.mu;
@@ -2720,6 +2722,7 @@ end
 end
 
 function Sigma_Qv = QvRootAndrew(SC,SL,tXi00,tXi01,Qv00,Qv01,Qv0Arg,Case)
+% QvRootAndrew finds the value of Qv for the analytical approach, Sigma_Qv the convergence criteria
 
 rho = SC.rho;
 mu = SC.mu;
@@ -2762,6 +2765,7 @@ Sigma_Qv = integral(integrand,lower_limit,upper_limit) - 1;
 end
 
 function Sigma_Qv = QvRootNumerical_g(SC,SL,tm0,Rm0,tXi0N,tQv0N,Qv0Arg,N_pt,Case)
+% Same as QvRootNumerical, but finds Qv for the numerical approach including gravity
 
 rho = SC.rho;
 mu = SC.mu;
